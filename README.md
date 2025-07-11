@@ -168,6 +168,11 @@ pip install pytest-cov
 pytest pytest_jsonplaceholder.py --cov=. --cov-report=html
 ```
 
+### Quic run with config
+```bash
+python run_tests.py
+```
+
 ### Running Tests in Parallel
 ```bash
 pip install pytest-xdist
